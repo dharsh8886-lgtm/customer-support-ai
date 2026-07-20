@@ -1,0 +1,13 @@
+Company Name: TechNova Electronics
+
+TechNova Electronics is an online electronics company that sells laptops, smartphones, headphones, smartwatches, chargers, and accessories.
+
+Working Hours:
+Monday to Saturday, 9:00 AM to 8:00 PM.
+
+Customer Support:
+Email: support@technova.com
+Phone: +91 98765 43210
+
+Website:
+www.technovaelectronics.com

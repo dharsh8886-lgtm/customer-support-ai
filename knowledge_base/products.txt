@@ -1,0 +1,150 @@
+TechNova Electronics Products
+
+Laptops
+
+- TechNova Pro Laptop
+  Price: ₹69,999
+  Processor: Intel Core i7-1360P
+  RAM: 16 GB DDR5
+  Storage: 512 GB SSD
+  Display: 15.6-inch Full HD IPS
+  Graphics: Intel Iris Xe Graphics
+  Battery Life: Up to 10 hours
+  Operating System: Windows 11
+  Connectivity: Wi-Fi 6, Bluetooth 5.2
+  Warranty: 2 Years Manufacturer Warranty
+
+- TechNova AirBook
+  Price: ₹54,999
+  Processor: Intel Core i5-1335U
+  RAM: 8 GB DDR5
+  Storage: 512 GB SSD
+  Display: 14-inch Full HD IPS
+  Battery Life: Up to 12 hours
+  Operating System: Windows 11
+  Connectivity: Wi-Fi 6, Bluetooth 5.2
+  Warranty: 1 Year Manufacturer Warranty
+
+----------------------------------------------------
+
+Smartphones
+
+- Nova X10
+  Price: ₹29,999
+  Processor: Snapdragon 7 Gen 2
+  RAM: 8 GB
+  Storage: 256 GB
+  Display: 6.7-inch AMOLED 120Hz
+  Rear Camera: 64 MP + 8 MP + 2 MP
+  Front Camera: 32 MP
+  Battery: 5000 mAh
+  Fast Charging: 67W
+  Operating System: Android 15
+  Connectivity: 5G, Wi-Fi 6, Bluetooth 5.3
+  Warranty: 1 Year Manufacturer Warranty
+
+- Nova X10 Pro
+  Price: ₹39,999
+  Processor: Snapdragon 8 Gen 2
+  RAM: 12 GB
+  Storage: 256 GB
+  Display: 6.8-inch AMOLED 120Hz
+  Rear Camera: 108 MP + 12 MP + 8 MP
+  Front Camera: 32 MP
+  Battery: 5200 mAh
+  Fast Charging: 80W
+  Operating System: Android 15
+  Connectivity: 5G, Wi-Fi 6E, Bluetooth 5.3
+  Warranty: 1 Year Manufacturer Warranty
+
+----------------------------------------------------
+
+Headphones
+
+- NovaBuds Wireless Earbuds
+  Price: ₹2,999
+  Driver Size: 10 mm
+  Battery Life: Up to 30 hours
+  Noise Cancellation: Active Noise Cancellation (ANC)
+  Charging: USB-C
+  Bluetooth: 5.3
+  Water Resistance: IPX5
+  Voice Assistant: Supported
+  Warranty: 1 Year Manufacturer Warranty
+
+- NovaSound Headphones
+  Price: ₹4,999
+  Driver Size: 40 mm
+  Battery Life: Up to 40 hours
+  Noise Cancellation: Hybrid ANC
+  Charging: USB-C Fast Charging
+  Bluetooth: 5.3
+  Microphone: Built-in ENC Microphone
+  Foldable Design: Yes
+  Warranty: 1 Year Manufacturer Warranty
+
+----------------------------------------------------
+
+Smartwatch
+
+- NovaWatch Smart
+  Price: ₹5,999
+  Processor: Qualcomm Snapdragon Wear
+  RAM: 4 GB
+  Storage: 64 GB
+  Display: 1.43-inch AMOLED
+  Resolution: 466 × 466
+  Battery Life: Up to 5 days
+  Health Features: Heart Rate, SpO2, Sleep Tracking
+  Sports Modes: 100+
+  Water Resistance: 5 ATM
+  GPS: Built-in GPS
+  Bluetooth: 5.2
+  Compatibility: Android & iOS
+  Warranty: 1 Year Manufacturer Warranty
+
+----------------------------------------------------
+
+Chargers
+
+- FastCharge 65W Adapter
+  Price: ₹1,499
+  Output Power: 65W
+  Port: USB-C
+  Fast Charging: Power Delivery (PD)
+  Protection: Over-voltage, Over-current, Short Circuit
+  Compatible With: Phones, Tablets, Laptops
+  Warranty: 6 Months Manufacturer Warranty
+
+----------------------------------------------------
+
+Accessories
+
+- USB-C Cable
+  Price: ₹499
+  Length: 1 meter
+  Data Speed: USB 3.2
+  Charging Support: 100W Fast Charging
+  Warranty: 3 Months Manufacturer Warranty
+
+- Laptop Backpack
+  Price: ₹1,299
+  Fits: Up to 15.6-inch laptops
+  Material: Water-resistant Polyester
+  Compartments: 3
+  USB Charging Port: Yes
+  Warranty: 6 Months Warranty Against Manufacturing Defects
+
+- Wireless Mouse
+  Price: ₹899
+  DPI: 1600
+  Connectivity: 2.4 GHz Wireless
+  Battery Life: Up to 12 months
+  Warranty: 1 Year Manufacturer Warranty
+
+- Keyboard
+  Price: ₹1,499
+  Type: Wireless Keyboard
+  Connectivity: Bluetooth & USB Receiver
+  Battery Life: Up to 6 months
+  Warranty: 1 Year Manufacturer Warranty
