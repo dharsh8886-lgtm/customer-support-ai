@@ -1021,7 +1021,7 @@ if not st.session_state.token:
                         st.error("Please enter your password.")
                     else:
                         try:
-                            wwith st.spinner("Signing you in..."):
+                            with st.spinner("Signing you in..."):
                                 response = requests.post(
                                     f"{API_URL}/login",
                                     json={
