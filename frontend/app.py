@@ -5,7 +5,6 @@ import extra_streamlit_components as stx
 from datetime import datetime, timedelta
 
 API_URL = os.environ.get("TECHNOVA_API_URL", "https://technova-backend-r6ao.onrender.com")
-st.write("Backend URL:", API_URL)
 
 def load_chat_history():
     token = st.session_state.get("token")
@@ -1030,9 +1029,6 @@ if not st.session_state.token:
                                     },
                                     timeout=60
                                 )
-
-                            st.write("Login status:", response.status_code)
-                            st.write("Login response:", response.text)
 
                             result = response.json()
 
