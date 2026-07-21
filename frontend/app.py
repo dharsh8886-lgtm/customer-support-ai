@@ -5,7 +5,7 @@ import extra_streamlit_components as stx
 from datetime import datetime, timedelta
 
 API_URL = os.environ.get("TECHNOVA_API_URL", "https://technova-backend-r6ao.onrender.com")
-
+st.write("Backend URL:", API_URL)
 
 def load_chat_history():
     token = st.session_state.get("token")
@@ -814,10 +814,21 @@ def forgot_password_dialog():
                     else:
                         message = response.json().get("detail", "Unable to process the request.")
                         st.error(message)
-                except requests.exceptions.ConnectionError:
-                    st.error("Backend is not running. Start the FastAPI server.")
-                except requests.exceptions.RequestException:
-                    st.error("Unable to connect to the server.")
+                except requests.exceptions.ConnectionError as error:
+                    st.error(f"Connection error: {error}")
+
+                except requests.exceptions.Timeout as error:
+                    st.error(f"Backend timeout: {error}")
+
+                except requests.RequestException as error:
+                    st.error(f"Request failed: {type(error).__name__}: {error}")
+
+                except ValueError as error:
+                    st.error(
+                        f"Invalid backend response. "
+                        f"Status: {response.status_code if 'response' in locals() else 'unknown'} "
+                        f"Body: {response.text if 'response' in locals() else 'no response'}"
+                    )
 
     with col2:
         if st.button("Close", use_container_width=True, key="close_forgot_password"):
@@ -1010,13 +1021,20 @@ if not st.session_state.token:
                         st.error("Please enter your password.")
                     else:
                         try:
-                            with st.spinner("Signing you in..."):
+                            wwith st.spinner("Signing you in..."):
                                 response = requests.post(
                                     f"{API_URL}/login",
-                                    json={"email": login_email.strip(), "password": login_password},
+                                    json={
+                                        "email": login_email.strip(),
+                                        "password": login_password
+                                    },
                                     timeout=60
                                 )
-                                result = response.json()
+
+                            st.write("Login status:", response.status_code)
+                            st.write("Login response:", response.text)
+
+                            result = response.json()
 
                             if result.get("success"):
                                 if remember_me:
