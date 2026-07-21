@@ -4,7 +4,7 @@ import streamlit as st
 import extra_streamlit_components as stx
 from datetime import datetime, timedelta
 
-API_URL = os.environ.get("TECHNOVA_API_URL", "http://127.0.0.1:8000")
+API_URL = os.environ.get("TECHNOVA_API_URL", "https://technova-backend-r6ao.onrender.com")
 
 
 def load_chat_history():
@@ -807,7 +807,7 @@ def forgot_password_dialog():
                     response = requests.post(
                         f"{API_URL}/forgot-password",
                         json={"email": reset_email.strip()},
-                        timeout=15
+                        timeout=60
                     )
                     if response.status_code == 200:
                         st.success("Password reset instructions have been sent.")
@@ -1014,7 +1014,7 @@ if not st.session_state.token:
                                 response = requests.post(
                                     f"{API_URL}/login",
                                     json={"email": login_email.strip(), "password": login_password},
-                                    timeout=15
+                                    timeout=60
                                 )
                                 result = response.json()
 
@@ -1096,7 +1096,7 @@ if not st.session_state.token:
                                         "email": register_email.strip(),
                                         "password": register_password
                                     },
-                                    timeout=15
+                                    timeout=60
                                 )
                                 result = response.json()
 
